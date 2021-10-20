@@ -17,8 +17,8 @@ const secondEl = document.querySelector('.second')
 const dateEl = document.querySelector('.date')
 const timeEl = document.querySelector('.time')
 
-const days = ["Monday", "Tuseday", "wednesday", "thusdsy", "friday", "saterday"]
-const months = ["jan", "feb", "mar", "apr", "mar", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
+const days = ["Sunday","Monday", "Tuseday", "wednesday", "thusdsy", "friday", "saterday"]
+const months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
 
 function setTime() {
     const time = new Date()
